@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Departments</title>
+</head>
+<STYLE>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background: linear-gradient(90deg, #4a90e2, #50e3c2);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #50e3c2;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    margin-top: 0;
+    color: #4a90e2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Specific Page Styles */
+
+.admissions, .events, .gallery, .faculty, .testimonials {
+    background: linear-gradient(135deg, #f39c12, #e74c3c);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.admissions h2, .events h2, .gallery h2, .faculty h2, .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.faculty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.faculty img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.faculty h3 {
+    margin-top: 0;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials blockquote {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials cite {
+    font-size: 18px;
+    color: #666;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: auto;
+    background: white ; /* White background for the table container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding around the container */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between cells */
+}
+
+th, td {
+    padding: 15px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light border below rows */
+}
+
+th {
+    background-color: #6a11cb; /* Header background color */
+    color: white; /* White text color for header */
+}
+
+tr:hover {
+    background-color: #5de9b3; /* Light gray background on row hover */
+}
+
+img {
+    border-radius: 50%; /* Circular images */
+    width: 60px; /* Fixed width for images */
+    height: 60px; /* Fixed height for images */
+}
+
+</STYLE>
+<body>
+    <header>
+        <h1>GOVT.COLLAGE BHAIRUNDA </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="C:\Users\WELCOME\Desktop\TEST WEB\TEST11.html">Details of Academic Programs</a></li>
+                <li><a href="examinations.html">Examinations</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="staff.html">Department Staff</a></li>
+                <li><a href="iqac.html">IQAC</a></li>
+                <li><a href="GALLERY.HTML">Library</a></li>
+                <li><a href="collaborations.html">Academic Collaborations</a></li>
+                <li><a href="aqar.html">AQAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <body>
+        
+            <div class="table-container">
+        
+                <h1>Employee Directory</h1>
+        
+                <table>
+        
+                    <thead>
+        
+                        <tr>
+        
+                            <th>Image</th>
+        
+                            <th>Name & Department</th>
+        
+                            <th>Work Experience (Years)</th>
+        
+                        </tr>
+        
+                    </thead>
+        
+                    <tbody>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 1"></td>
+        
+                            <td>DR. BHARAT SINGH HARIYALE<br> <P>(PRINCIPAL)SOCIOLOGY</P>
+                            </td>
+                            <td>5YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 2"></td>
+        
+                            <td>DR. S.S.MEENA<br>GEOGRAPHY</td>
+        
+                            <td>37YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 3"></td>
+        
+                            <td>DR.BHARAT SINGH REKWAL<br>LIBRARIAN</td>
+        
+                            <td>17YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 4"></td>
+        
+                            <td>DR.AAKANSHA UJJAINIYA<br>SPORTS OFFCIAL</td>
+        
+                            <td>08YR </td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 5"></td>
+        
+                            <td>DR.URMILA SATOGIYA<br>POLITICAL SCIENCE</td>
+        
+                            <td>17YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 6"></td>
+        
+                            <td>JDR. VISVNATH KUBDE <br>HINDI LITERATURE</td>
+        
+                            <td>09YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 7"></td>
+        
+                            <td>DR.DEEPMALA BRAMHE<br>BOTONY </td>
+        
+                            <td>15YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 8"></td>
+        
+                            <td>DR.DEVENDRA MALVIYA<br>COMMERCE</td>
+        
+                            <td> 09YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 9"></td>
+        
+                            <td>DR.DEVSARAN SINGH <br>ECONOMICS</td>
+        
+                            <td>15YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 10"></td>
+        
+                            <td>DR.APARNA NIGAM<br>PRANI SASTRA.</td>
+        
+                            <td>02YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 11"></td>
+        
+                            <td>MRS.NEETA VAERMA<br>HISTORY</td>
+        
+                            <td>11YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 12"></td>
+        
+                            <td>MRS.USHA RAJPUT<br>MATHEMATICS</td>
+        
+                            <td>09YR</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td><img src="IMAGE2.jpeg" alt="Employee 13"></td>
+        
+                            <td>DR.MOHIT GARG .<br>COMPUTER SCIENCE</td>
+        
+                            <td>02YR</td>
+        
+                        </tr>
+        
+                    
+                    </tbody>
+        
+                </table>
+        
+            </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Our College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
